@@ -10,7 +10,7 @@ Room: ECC-811/ECC-811
 Instructor: Aj.Thana Hongsuwan
 
 
-Lecture
+# Lecture
 
 Basic Python 10
 
@@ -21,7 +21,7 @@ Midterm 30
 Final 30
 
 
-Lab
+# Lab
 
 Basic Python 10
 
