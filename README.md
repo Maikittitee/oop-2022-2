@@ -7,8 +7,7 @@ Sec: 16/116
 
 Room: ECC-811/ECC-811
 
-Instructor: Aj.Thana Hongsuwan
-
+Instructor: Aj.Orachad
 
 # Lecture
 
