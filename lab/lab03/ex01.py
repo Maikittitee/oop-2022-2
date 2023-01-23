@@ -3,7 +3,7 @@ def	add_score(subject_score:dict, subject:str, score:int):
 	return (subject_score)
 
 def calc_average_score(subject_score:dict):
-	return (sum(subject_score.values()))
+	return ("{:.2f}".format(sum(subject_score.values())/len(subject_score)))
 
 my_dict = {}
 add_score(my_dict,"math",9)
