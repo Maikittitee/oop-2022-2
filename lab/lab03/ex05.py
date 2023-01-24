@@ -1,9 +1,9 @@
 def	update_records(dictionary_record : dict, id : int, property : str, value : str):
 	if value == "": #Try to delete Property
 		if (id not in dictionary_record.keys()): # make sure that have id of the property
-			return (f"ID:{id} not found")
+			return (dictionary_record)
 		elif (property not in dictionary_record[id].keys()): # make sure that have the property
-			return (f"Property:{property} not found")
+			return (dictionary_record)
 		else: # pop (delete) the property
 			dictionary_record[id].pop(property)
 		return (dictionary_record)

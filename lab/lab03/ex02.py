@@ -23,3 +23,4 @@ add_score(my_dict,"65010034","eng",7)
 print(my_dict)
 
 print(calc_average_score(my_dict))
+    
