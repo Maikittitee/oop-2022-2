@@ -5,9 +5,14 @@ class Product:
 		self.name = name
 		self.price = price
 
+	def name_setter(self, name):
+		self.name = name
+
+	def name_getter(self, name):
+		return self.name
+
 	def displayProduct(self):
 		print(f"Product: {self.name},Price:{self.price}")
-		return (self.name,self.price)
 
 
 
