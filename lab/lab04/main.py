@@ -73,7 +73,7 @@ class Cart:
 		self.total += new_item.price_getter()							# Maybe  try type cast new_item as Product  
 		self.items.update({new_item.name: numbers_of_item})	
 
-	def	displayCart(self):
+	def	displayCart(self);
 		print(self.items)
 		print(self.quanity)
 		print(self.total)
