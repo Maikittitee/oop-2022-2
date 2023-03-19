@@ -12,12 +12,32 @@ class Product():
 		self.detail_img = detail_img
 		self.preview_img = preview_img 
 		self.stock = stock
+	def	request_product(self):
+		pass
+	
+	def	select_type(self):
+		pass
+
+	def get_product_detail(self):
+		pass
+
+	def view_product(self):
+		pass
 	
 
 class ProductCatalog():
 	def __init__ (self, last_update, list_of_product):
 		self.last_update = last_update
 		self.list_of_product = list_of_product
+
+	def get_each_product():
+		pass
+
+	def search_product_by_type(self, search_input):
+		pass
+
+	def search_product_by_name(self, search_input):
+		pass	
 
 class ProductWithChoice(Product):
 	def __init__ (self, choice):
@@ -35,5 +55,6 @@ class DisplayProduct(Promotion):
 		self.feed_type = feed_type
 
 class Favorite():
-	def __init__ (self)
+	def __init__ (self):
+		pass
 
